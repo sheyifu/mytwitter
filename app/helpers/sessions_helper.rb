@@ -1,5 +1,5 @@
 module SessionsHelper
-
+attr_accessor :remember_token
       # Remembers a user in a persistent session.
       def remember(user)
         user.remember

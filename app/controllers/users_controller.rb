@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-attr_accessor :remember_token
+     attr_accessor :remember_token
       def show
         @user = User.find(params[:id])
       end
